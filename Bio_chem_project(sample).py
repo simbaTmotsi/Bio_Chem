@@ -1,3 +1,10 @@
+#Created by Simbarashe Timothy Motsi
+#Blog: http://tech-conomics.blogspot.com/
+#Github: https://github.com/simbaTmotsi
+#linkedin: https://www.linkedin.com/in/simbarashe-timothy-motsi
+#Google+: https://plus.google.com/100035589113895419760
+#Best used with Enthought canopy for drawing the graph
+
 import time as t
 import matplotlib.pyplot as plt
 from os import path#to check that the file doesnt already exist
@@ -147,5 +154,5 @@ def createfile(dest):
     
     
 if __name__=='__main__':#if the file is the main file being run then it executes the code below
-    destination='C:\\Users\\Default User\\'  #defines the file path
+    destination='C:\\Users\\Default User\\Desktop'  #defines the file path
     createfile(destination)
